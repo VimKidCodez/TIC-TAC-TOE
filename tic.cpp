@@ -56,7 +56,7 @@ int main(){
 			won(box[k][k]);
 			break;
 		}
-		// Check Upwards
+		// Check Sidewards
 		if (box[k][k]==box[k][k+1] && box[k][k+1]==box[k][k+2]){
 			won(box[k][k]);
 			break;
